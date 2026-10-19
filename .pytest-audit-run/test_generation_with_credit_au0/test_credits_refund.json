@@ -1,0 +1,50 @@
+{
+  "accounts": {
+    "guest_8b4529431ae04d4aa9c190ae06fbf450": {
+      "token": "guest_8b4529431ae04d4aa9c190ae06fbf450",
+      "credits": 4,
+      "created_at": "2026-10-19T18:06:24.570037+00:00",
+      "updated_at": "2026-10-19T18:06:24.600904+00:00",
+      "transactions": [
+        {
+          "transaction_id": "25d4598e-5f5a-4dce-92be-bbd2c3d5e0f3",
+          "type": "grant",
+          "amount": 5,
+          "balance_after": 5,
+          "timestamp": "2026-10-19T18:06:24.570037+00:00",
+          "reference_id": null,
+          "reason": "initial_guest_grant"
+        },
+        {
+          "transaction_id": "d55a686a-667f-46b2-a55f-45176eb58171",
+          "type": "deduct",
+          "amount": 1,
+          "balance_after": 4,
+          "timestamp": "2026-10-19T18:06:24.579733+00:00",
+          "reference_id": null,
+          "reason": "anime_qr_generation"
+        },
+        {
+          "transaction_id": "29c586e7-4544-4643-a18c-1bcfe576feb0",
+          "type": "deduct",
+          "amount": 1,
+          "balance_after": 3,
+          "timestamp": "2026-10-19T18:06:24.587744+00:00",
+          "reference_id": null,
+          "reason": "anime_qr_generation"
+        },
+        {
+          "transaction_id": "df70f27f-80e2-4a90-a23f-2c7e9ed717c6",
+          "type": "refund",
+          "amount": 1,
+          "balance_after": 4,
+          "timestamp": "2026-10-19T18:06:24.600904+00:00",
+          "reference_id": null,
+          "reason": "generation_error"
+        }
+      ]
+    }
+  },
+  "processed_payment_ids": [],
+  "pending_orders": {}
+}

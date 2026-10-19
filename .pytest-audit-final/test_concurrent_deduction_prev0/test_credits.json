@@ -1,0 +1,113 @@
+{
+  "accounts": {
+    "guest_87508000c3954a66bd9637e581873f6d": {
+      "token": "guest_87508000c3954a66bd9637e581873f6d",
+      "credits": 0,
+      "created_at": "2026-10-19T18:10:48.699972+00:00",
+      "updated_at": "2026-10-19T18:10:48.905160+00:00",
+      "transactions": [
+        {
+          "transaction_id": "96366101-663b-4a0b-8a42-1df6201e52ef",
+          "type": "grant",
+          "amount": 10,
+          "balance_after": 10,
+          "timestamp": "2026-10-19T18:10:48.699972+00:00",
+          "reference_id": null,
+          "reason": "initial_guest_grant"
+        },
+        {
+          "transaction_id": "922ec6e1-9937-480d-9069-cc47f4f513bb",
+          "type": "deduct",
+          "amount": 1,
+          "balance_after": 9,
+          "timestamp": "2026-10-19T18:10:48.715879+00:00",
+          "reference_id": null,
+          "reason": "image_generation"
+        },
+        {
+          "transaction_id": "1e2f8397-40f4-4ce7-bccd-03d0f567f889",
+          "type": "deduct",
+          "amount": 1,
+          "balance_after": 8,
+          "timestamp": "2026-10-19T18:10:48.731660+00:00",
+          "reference_id": null,
+          "reason": "image_generation"
+        },
+        {
+          "transaction_id": "562cf270-5a4a-4f96-8093-36e307963753",
+          "type": "deduct",
+          "amount": 1,
+          "balance_after": 7,
+          "timestamp": "2026-10-19T18:10:48.750848+00:00",
+          "reference_id": null,
+          "reason": "image_generation"
+        },
+        {
+          "transaction_id": "eb3a3d4b-390d-466e-9dd1-45e6f0cb6da2",
+          "type": "deduct",
+          "amount": 1,
+          "balance_after": 6,
+          "timestamp": "2026-10-19T18:10:48.772176+00:00",
+          "reference_id": null,
+          "reason": "image_generation"
+        },
+        {
+          "transaction_id": "fe4d896c-1331-4036-a89a-1029ad42ba53",
+          "type": "deduct",
+          "amount": 1,
+          "balance_after": 5,
+          "timestamp": "2026-10-19T18:10:48.795333+00:00",
+          "reference_id": null,
+          "reason": "image_generation"
+        },
+        {
+          "transaction_id": "bb28d7ea-cb54-402c-85c8-9ebe2a826c47",
+          "type": "deduct",
+          "amount": 1,
+          "balance_after": 4,
+          "timestamp": "2026-10-19T18:10:48.812979+00:00",
+          "reference_id": null,
+          "reason": "image_generation"
+        },
+        {
+          "transaction_id": "035318c6-5654-4421-8a5b-37da4d93f2a4",
+          "type": "deduct",
+          "amount": 1,
+          "balance_after": 3,
+          "timestamp": "2026-10-19T18:10:48.837982+00:00",
+          "reference_id": null,
+          "reason": "image_generation"
+        },
+        {
+          "transaction_id": "73f2e380-cd7c-442c-badc-7f5a6e13ccd1",
+          "type": "deduct",
+          "amount": 1,
+          "balance_after": 2,
+          "timestamp": "2026-10-19T18:10:48.859954+00:00",
+          "reference_id": null,
+          "reason": "image_generation"
+        },
+        {
+          "transaction_id": "98489dab-13df-4049-a4b9-3a882ad66cae",
+          "type": "deduct",
+          "amount": 1,
+          "balance_after": 1,
+          "timestamp": "2026-10-19T18:10:48.882031+00:00",
+          "reference_id": null,
+          "reason": "image_generation"
+        },
+        {
+          "transaction_id": "6bb12c94-8c80-4b01-9117-5eab5af36fcf",
+          "type": "deduct",
+          "amount": 1,
+          "balance_after": 0,
+          "timestamp": "2026-10-19T18:10:48.905160+00:00",
+          "reference_id": null,
+          "reason": "image_generation"
+        }
+      ]
+    }
+  },
+  "processed_payment_ids": [],
+  "pending_orders": {}
+}

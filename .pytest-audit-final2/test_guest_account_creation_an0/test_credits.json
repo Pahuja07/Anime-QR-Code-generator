@@ -1,0 +1,23 @@
+{
+  "accounts": {
+    "guest_6e9dbcb3113848eaa16bb3c31b2072ad": {
+      "token": "guest_6e9dbcb3113848eaa16bb3c31b2072ad",
+      "credits": 5,
+      "created_at": "2026-10-19T18:27:45.183738+00:00",
+      "updated_at": "2026-10-19T18:27:45.183738+00:00",
+      "transactions": [
+        {
+          "transaction_id": "9d0092be-8709-49f5-98f2-78af4c893f6b",
+          "type": "grant",
+          "amount": 5,
+          "balance_after": 5,
+          "timestamp": "2026-10-19T18:27:45.183738+00:00",
+          "reference_id": null,
+          "reason": "initial_guest_grant"
+        }
+      ]
+    }
+  },
+  "processed_payment_ids": [],
+  "pending_orders": {}
+}

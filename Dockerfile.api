@@ -1,0 +1,27 @@
+FROM python:3.10-slim
+
+ENV PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PORT=8000
+
+WORKDIR /workspace
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    libglib2.0-0 \
+    libgl1 \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY setup.py /workspace/setup.py
+COPY src /workspace/src
+COPY config /workspace/config
+COPY app.py /workspace/app.py
+
+RUN python -m pip install --upgrade pip setuptools wheel \
+    && python -m pip install -e . \
+        'fastapi>=0.110.0' \
+        'uvicorn[standard]>=0.27.0' \
+        'python-dotenv>=1.0.0' \
+        'razorpay>=2.0.0'
+
+EXPOSE 8000
+CMD ["sh", "-c", "exec uvicorn app:app --host 0.0.0.0 --port ${PORT:-8000}"]

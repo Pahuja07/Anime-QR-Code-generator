@@ -1,0 +1,15 @@
+artifacts_root: artifacts
+
+qr_generation:
+  root_dir: artifacts/qr_generation
+  output_image_path: artifacts/qr_generation/generated_qr.png
+  error_correction: H
+  box_size: 10
+  border: 4
+  fill_color: black
+  back_color: white
+  target_size: [512, 512]
+
+qr_validation:
+  root_dir: artifacts/qr_validation
+  detector: opencv

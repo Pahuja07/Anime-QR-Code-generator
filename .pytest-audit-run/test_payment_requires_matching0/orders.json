@@ -1,0 +1,59 @@
+{
+  "accounts": {
+    "guest_07d458d7413b426c85cd4245cad4663a": {
+      "token": "guest_07d458d7413b426c85cd4245cad4663a",
+      "credits": 20,
+      "created_at": "2026-10-19T18:06:24.615940+00:00",
+      "updated_at": "2026-10-19T18:06:24.651962+00:00",
+      "transactions": [
+        {
+          "transaction_id": "542e9366-6126-43f9-8374-a2b88708a81f",
+          "type": "grant",
+          "amount": 0,
+          "balance_after": 0,
+          "timestamp": "2026-10-19T18:06:24.615940+00:00",
+          "reference_id": null,
+          "reason": "initial_guest_grant"
+        },
+        {
+          "transaction_id": "dd38214e-2518-491f-bbd0-f955932ea639",
+          "type": "purchase",
+          "amount": 20,
+          "balance_after": 20,
+          "timestamp": "2026-10-19T18:06:24.651962+00:00",
+          "reference_id": "pay_mock_3",
+          "reason": "razorpay_order_order_04397aa269414bcf"
+        }
+      ]
+    },
+    "guest_085925524f7742a7a982c33989cdc1a3": {
+      "token": "guest_085925524f7742a7a982c33989cdc1a3",
+      "credits": 0,
+      "created_at": "2026-10-19T18:06:24.625614+00:00",
+      "updated_at": "2026-10-19T18:06:24.625614+00:00",
+      "transactions": [
+        {
+          "transaction_id": "533a4646-3222-4ec1-a969-dd6f9acff481",
+          "type": "grant",
+          "amount": 0,
+          "balance_after": 0,
+          "timestamp": "2026-10-19T18:06:24.625614+00:00",
+          "reference_id": null,
+          "reason": "initial_guest_grant"
+        }
+      ]
+    }
+  },
+  "processed_payment_ids": [
+    "pay_mock_3"
+  ],
+  "pending_orders": {
+    "order_04397aa269414bcf": {
+      "token": "guest_07d458d7413b426c85cd4245cad4663a",
+      "package_id": "pack_starter",
+      "amount_subunits": 4900,
+      "credits": 20,
+      "paid_payment_id": "pay_mock_3"
+    }
+  }
+}
